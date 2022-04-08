@@ -1,0 +1,220 @@
+.App {
+  text-align: center;
+  background-image: url('./components/images/back3.jpg'); 
+  height: 100vh;
+
+}
+
+.loginFormDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} 
+
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.registerForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.article {
+  height: 98px;
+  width: 175px;
+  place-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  
+  border-radius: 25px;
+  box-shadow: 5px;
+
+  border-style: solid;
+  margin: 3px;
+  border-color: black;
+}
+
+.wordCard{
+  font-weight: 800;
+  height: 105px;
+  width: 175px;
+  border-radius: 25px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  place-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.divWithCards{
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+
+.team{
+  display: flex;
+}
+
+.topCenter{
+  display:flex;
+}
+
+.gamePage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  background-image: url('./components/images/back11.png');
+  height: 100%;
+}
+
+
+.topCenter{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+body{
+  background-color: #bae7ff;
+}
+
+
+
+.title {
+  
+  display: flex;
+  background-color: grey; 
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.gameTopDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.blueTeam{
+  height: 75px;
+  width: 250px;
+  border-radius: 30px;
+  background-color: blue;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.redTeam{
+  height: 75px;
+  width: 250px;
+  border-radius: 30px;
+  background-color: red;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+.roleButtons{
+  height: 30px;
+  border-radius: 20px;
+}
+
+
+.gameField{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.clueForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.aboveCards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.scoreRed{
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.scoreBlue{
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.lobbyDiv{
+  background-image: url('./components/images/back5.png');
+  width: 100%;
+  height: 100vh;
+}
+
+.welcome{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 60px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.lobbyButtons{
+  font-size: 30px;
+  font-weight: 400;
+  font-family: fantasy;
+  height: 75px;
+  width: 250px;
+  border-radius: 40px;
+  background-color: burlywood;
+  box-shadow: 5px 5px;
+  border-width: 5px;
+}
+
+.rules{
+  align-self: flex-start;
+}
+
+.lobbyInside{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bottom{
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 20px;
+}
