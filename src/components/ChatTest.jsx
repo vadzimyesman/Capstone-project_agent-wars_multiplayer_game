@@ -5,9 +5,9 @@ import 'antd/dist/antd.css';
 import axios from 'axios';
 
 
-// const  HOST = window.location.origin.replace(/^http/, 'ws')
-// const client = new W3CWebSocket(HOST);
-const client = new W3CWebSocket(`ws://127.0.0.1:4000`);
+const  HOST = window.location.origin.replace(/^http/, 'ws')
+const client = new W3CWebSocket(HOST);
+// const client = new W3CWebSocket(`ws://127.0.0.1:4000`);
 
 const { Search } = Input;
 const { Text } = Typography;

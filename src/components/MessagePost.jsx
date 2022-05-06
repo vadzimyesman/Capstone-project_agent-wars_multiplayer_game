@@ -8,4 +8,3 @@ function MessagePost(props) {
 
 export default MessagePost
 
-//key={index} nickname={element.nickname} message={element.message}
